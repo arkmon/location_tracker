@@ -6,9 +6,14 @@
 //  Copyright © 2017 Arkadiusz Dowejko. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import MapKit
 
 final class ViewControllerViewModel {
 
+    var fileNames: [String]! = [String]()
     
+    func getPolyLines() -> [MKPolyLine]? {
+        
+    }
 }

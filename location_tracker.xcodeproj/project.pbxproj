@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5510AE851F54B0B60049DB8D /* TracksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5510AE841F54B0B60049DB8D /* TracksModel.swift */; };
 		55FEEE911F50946300FDE6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEE901F50946300FDE6B4 /* AppDelegate.swift */; };
 		55FEEE931F50946300FDE6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEE921F50946300FDE6B4 /* ViewController.swift */; };
 		55FEEE961F50946300FDE6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FEEE941F50946300FDE6B4 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5510AE841F54B0B60049DB8D /* TracksModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TracksModel.swift; path = navmiiTest/TracksModel.swift; sourceTree = "<group>"; };
 		55FEEE8D1F50946300FDE6B4 /* location_tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = location_tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FEEE901F50946300FDE6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FEEE921F50946300FDE6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				55FEEECE1F54864A00FDE6B4 /* Track 110-03-01 02-56.gpx */,
 				55FEEEC11F50B01200FDE6B4 /* Track 110-02-31 23-46 Bardeler Weg.gpx */,
 				55FEEECF1F54864A00FDE6B4 /* Track 110-03-01 05-06.gpx */,
+				5510AE841F54B0B60049DB8D /* TracksModel.swift */,
 			);
 			name = navmiiTest;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				55FEEECD1F546B0200FDE6B4 /* TrackDrawer.swift in Sources */,
 				55FEEEC41F50C42B00FDE6B4 /* ViewControllerViewModel.swift in Sources */,
 				55FEEE911F50946300FDE6B4 /* AppDelegate.swift in Sources */,
+				5510AE851F54B0B60049DB8D /* TracksModel.swift in Sources */,
 				55FEEEC81F50D95E00FDE6B4 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +572,7 @@
 				55FEEEB71F50946300FDE6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FEEEB81F50946300FDE6B4 /* Build configuration list for PBXNativeTarget "location_trackerTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +581,7 @@
 				55FEEEBA1F50946300FDE6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FEEEBB1F50946300FDE6B4 /* Build configuration list for PBXNativeTarget "location_trackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +590,7 @@
 				55FEEEBD1F50946300FDE6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
