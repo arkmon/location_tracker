@@ -14,6 +14,15 @@
 		55FEEE9B1F50946300FDE6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FEEE991F50946300FDE6B4 /* LaunchScreen.storyboard */; };
 		55FEEEA61F50946300FDE6B4 /* location_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEEA51F50946300FDE6B4 /* location_trackerTests.swift */; };
 		55FEEEB11F50946300FDE6B4 /* location_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEEB01F50946300FDE6B4 /* location_trackerUITests.swift */; };
+		55FEEEC01F5095B600FDE6B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FEEEBF1F5095B600FDE6B4 /* MapKit.framework */; };
+		55FEEEC21F50B01200FDE6B4 /* Track 110-02-31 23-46 Bardeler Weg.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 55FEEEC11F50B01200FDE6B4 /* Track 110-02-31 23-46 Bardeler Weg.gpx */; };
+		55FEEEC41F50C42B00FDE6B4 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEEC31F50C42B00FDE6B4 /* ViewControllerViewModel.swift */; };
+		55FEEEC81F50D95E00FDE6B4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEEC61F50D95E00FDE6B4 /* MapViewController.swift */; };
+		55FEEEC91F50D95E00FDE6B4 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FEEEC71F50D95E00FDE6B4 /* MapViewController.xib */; };
+		55FEEECB1F50D9F200FDE6B4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEECA1F50D9F200FDE6B4 /* MapViewModel.swift */; };
+		55FEEECD1F546B0200FDE6B4 /* TrackDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEEECC1F546B0200FDE6B4 /* TrackDrawer.swift */; };
+		55FEEED01F54864A00FDE6B4 /* Track 110-03-01 02-56.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 55FEEECE1F54864A00FDE6B4 /* Track 110-03-01 02-56.gpx */; };
+		55FEEED11F54864A00FDE6B4 /* Track 110-03-01 05-06.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 55FEEECF1F54864A00FDE6B4 /* Track 110-03-01 05-06.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		55FEEEAC1F50946300FDE6B4 /* location_trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = location_trackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FEEEB01F50946300FDE6B4 /* location_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location_trackerUITests.swift; sourceTree = "<group>"; };
 		55FEEEB21F50946300FDE6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FEEEBF1F5095B600FDE6B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		55FEEEC11F50B01200FDE6B4 /* Track 110-02-31 23-46 Bardeler Weg.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Track 110-02-31 23-46 Bardeler Weg.gpx"; sourceTree = "<group>"; };
+		55FEEEC31F50C42B00FDE6B4 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		55FEEEC61F50D95E00FDE6B4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = navmiiTest/MapViewController.swift; sourceTree = "<group>"; };
+		55FEEEC71F50D95E00FDE6B4 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = navmiiTest/MapViewController.xib; sourceTree = "<group>"; };
+		55FEEECA1F50D9F200FDE6B4 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewModel.swift; path = navmiiTest/MapViewModel.swift; sourceTree = "<group>"; };
+		55FEEECC1F546B0200FDE6B4 /* TrackDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackDrawer.swift; path = navmiiTest/TrackDrawer.swift; sourceTree = "<group>"; };
+		55FEEECE1F54864A00FDE6B4 /* Track 110-03-01 02-56.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Track 110-03-01 02-56.gpx"; sourceTree = "<group>"; };
+		55FEEECF1F54864A00FDE6B4 /* Track 110-03-01 05-06.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Track 110-03-01 05-06.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FEEEC01F5095B600FDE6B4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +96,12 @@
 		55FEEE841F50946300FDE6B4 = {
 			isa = PBXGroup;
 			children = (
+				55FEEEC51F50D92B00FDE6B4 /* navmiiTest */,
 				55FEEE8F1F50946300FDE6B4 /* location_tracker */,
 				55FEEEA41F50946300FDE6B4 /* location_trackerTests */,
 				55FEEEAF1F50946300FDE6B4 /* location_trackerUITests */,
 				55FEEE8E1F50946300FDE6B4 /* Products */,
+				55FEEEBE1F5095B600FDE6B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,7 @@
 				55FEEE971F50946300FDE6B4 /* Assets.xcassets */,
 				55FEEE991F50946300FDE6B4 /* LaunchScreen.storyboard */,
 				55FEEE9C1F50946300FDE6B4 /* Info.plist */,
+				55FEEEC31F50C42B00FDE6B4 /* ViewControllerViewModel.swift */,
 			);
 			path = location_tracker;
 			sourceTree = "<group>";
@@ -123,6 +145,28 @@
 				55FEEEB21F50946300FDE6B4 /* Info.plist */,
 			);
 			path = location_trackerUITests;
+			sourceTree = "<group>";
+		};
+		55FEEEBE1F5095B600FDE6B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FEEEBF1F5095B600FDE6B4 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FEEEC51F50D92B00FDE6B4 /* navmiiTest */ = {
+			isa = PBXGroup;
+			children = (
+				55FEEEC61F50D95E00FDE6B4 /* MapViewController.swift */,
+				55FEEEC71F50D95E00FDE6B4 /* MapViewController.xib */,
+				55FEEECA1F50D9F200FDE6B4 /* MapViewModel.swift */,
+				55FEEECC1F546B0200FDE6B4 /* TrackDrawer.swift */,
+				55FEEECE1F54864A00FDE6B4 /* Track 110-03-01 02-56.gpx */,
+				55FEEEC11F50B01200FDE6B4 /* Track 110-02-31 23-46 Bardeler Weg.gpx */,
+				55FEEECF1F54864A00FDE6B4 /* Track 110-03-01 05-06.gpx */,
+			);
+			name = navmiiTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +281,10 @@
 			files = (
 				55FEEE9B1F50946300FDE6B4 /* LaunchScreen.storyboard in Resources */,
 				55FEEE981F50946300FDE6B4 /* Assets.xcassets in Resources */,
+				55FEEED11F54864A00FDE6B4 /* Track 110-03-01 05-06.gpx in Resources */,
+				55FEEEC21F50B01200FDE6B4 /* Track 110-02-31 23-46 Bardeler Weg.gpx in Resources */,
+				55FEEED01F54864A00FDE6B4 /* Track 110-03-01 02-56.gpx in Resources */,
+				55FEEEC91F50D95E00FDE6B4 /* MapViewController.xib in Resources */,
 				55FEEE961F50946300FDE6B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FEEE931F50946300FDE6B4 /* ViewController.swift in Sources */,
+				55FEEECB1F50D9F200FDE6B4 /* MapViewModel.swift in Sources */,
+				55FEEECD1F546B0200FDE6B4 /* TrackDrawer.swift in Sources */,
+				55FEEEC41F50C42B00FDE6B4 /* ViewControllerViewModel.swift in Sources */,
 				55FEEE911F50946300FDE6B4 /* AppDelegate.swift in Sources */,
+				55FEEEC81F50D95E00FDE6B4 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
